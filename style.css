@@ -1,0 +1,15 @@
+img 
+{
+	width:50%; margin-left: 100px; position:relative;
+}
+
+body 
+{
+	max-width:600px; background-color:#cccccf; margin-left:50px
+
+}
+
+table, th, tr, td
+{
+	border-style:solid; margin-left:200px
+}
