@@ -1,16 +1,31 @@
+h1
+{
+	color:#805486; margin-left:1rem; text-align: center;
+}
+
+nav
+{
+	background-color: #E5D2FF; padding: 0.05rem; border-radius: 25px
+}
+
 nav li
 {
 	display:inline; font-size:20px; margin-left: 2rem; margin-right: 2rem;
 }
 
+header
+{
+	float:left; width:100%; background-color:#E5D2FF; border-radius:10px;
+}
+
 img 
 {
-	width:30%; float:left; margin-right: 1.5rem; position:relative; border:dashed 1px;
+	width:30%; float:left; margin-top: 0.5rem; margin-right: 1.5rem; position:relative; border:solid 2px; border-color:#A78ECB;
 }
 
 body 
 {
-	max-width:600px; background-color:#cccccf; margin-left:50px
+	max-width:600px; background-image:url('stripebackground.jpg'); background-size: 100% 100%; background-attachment: fixed; background-repeat: no-repeat; margin-left:50px
 
 }
 
