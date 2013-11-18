@@ -1,6 +1,11 @@
+nav li
+{
+	display:inline; font-size:20px; margin-left: 2rem; margin-right: 2rem;
+}
+
 img 
 {
-	width:50%; margin-left: 100px; position:relative;
+	width:30%; float:left; margin-right: 1.5rem; position:relative; border:dashed 1px;
 }
 
 body 
