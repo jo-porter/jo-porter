@@ -1,6 +1,6 @@
 h1
 {
-	color:#805486; margin-left:1rem; text-align: center;
+	color:#805486; margin-left:1rem; text-align: center; font-size:1.9rem;
 }
 
 nav
@@ -10,23 +10,55 @@ nav
 
 nav li
 {
-	display:inline; font-size:20px; margin-left: 2rem; margin-right: 2rem;
+	display:inline; font-size:20px; margin-left: 2rem; margin-right: 1rem;
 }
 
 header
 {
-	float:left; width:100%; background-color:#E5D2FF; border-radius:10px;
+	float:left; width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
 }
 
 img 
 {
-	width:30%; float:left; margin-top: 0.5rem; margin-right: 1.5rem; position:relative; border:solid 2px; border-color:#A78ECB;
+	width:30%; float:left; margin-top: 0.5rem; margin-right: 1.5rem; 
+	position:relative; border:solid 2px; border-color:#A78ECB;
 }
 
+img.n1
+{
+	margin-top: 0rem
+}
 body 
 {
-	max-width:600px; background-image:url('stripebackground.jpg'); background-size: 100% 100%; background-attachment: fixed; background-repeat: no-repeat; margin-left:50px
+	max-width:600px; background-image:url('stripebackground.jpg');
+	 background-size: 100% 100%;background-attachment: fixed;
+	  background-repeat: no-repeat; margin-left:50px; font-family:courier;
 
+}
+
+h2.n1
+{
+	font-size:1.65rem; margin-top: 2rem
+}
+
+p.n1
+{
+	font-size:1.45rem; margin-top: 2rem
+}
+
+p.n2
+{
+	font-size:1.1rem; float: left
+}
+
+p.n3
+{
+	font-size:1.1rem; float: right;
+}
+
+p.n4
+{
+	border-color:#D58AEC; border-radius: 25px
 }
 
 table, th, tr, td
