@@ -10,12 +10,12 @@ nav
 
 nav li
 {
-	display:inline; font-size:20px; margin-left: 2rem; margin-right: 1rem;
+	display:inline; font-size:20px; margin-left: 1rem; margin-right: 1rem;
 }
 
 header
 {
-	float:left; width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
+ 	float:left; width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
 }
 
 img 
@@ -61,7 +61,12 @@ p.n4
 	border-color:#D58AEC; border-radius: 25px
 }
 
-table, th, tr, td
+thead
 {
-	border-style:solid; margin-left:200px
+	font-size: 1.5rem
+}
+
+table 
+{
+float:left;
 }
