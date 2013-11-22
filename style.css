@@ -61,6 +61,16 @@ p.n4
 	border-color:#D58AEC; border-radius: 25px
 }
 
+div.n1
+{
+	color:#123ABC; font-family:Garamond;
+}
+
+div.n2
+{
+	color:#FFFFFF; font-family:cursive;
+}
+
 thead
 {
 	font-size: 1.5rem
@@ -68,5 +78,15 @@ thead
 
 table 
 {
-float:left;
+float:left; border-bottom:10px
+}
+
+img.n2
+{
+	float:left; border-top:10px
+}
+
+button
+{
+	white-space:20px
 }
