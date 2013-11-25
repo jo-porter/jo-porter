@@ -61,15 +61,6 @@ p.n4
 	border-color:#D58AEC; border-radius: 25px
 }
 
-div.n1
-{
-	color:#123ABC; font-family:Garamond;
-}
-
-div.n2
-{
-	color:#FFFFFF; font-family:cursive;
-}
 
 thead
 {
@@ -78,7 +69,7 @@ thead
 
 table 
 {
-float:left; border-bottom:10px
+float:left; border-bottom:50px
 }
 
 img.n2
