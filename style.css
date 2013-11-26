@@ -74,7 +74,12 @@ float:left; border-bottom:50px
 
 img.n2
 {
-	float:left; border-top:10px
+	text-align:left; border-top:10px
+}
+
+div.n1
+{
+	float:left;
 }
 
 button
