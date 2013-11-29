@@ -5,22 +5,22 @@ h1
 
 nav
 {
-	background-color: #E5D2FF; padding: 0.05rem; border-radius: 25px
+	text-align: center; background-color: #E5D2FF; padding: 0.05rem; border-radius: 25px
 }
 
 nav li
 {
-	display:inline; font-size:20px; margin-left: 1rem; margin-right: 1rem;
+	text-align:center; display:inline; font-size:20px; margin-left: 1rem; margin-right: 1rem;
 }
 
 header
 {
- 	float:left; width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
+ 	width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
 }
 
 img 
 {
-	width:30%; float:left; margin-top: 0.5rem; margin-right: 1.5rem; 
+	max-width:30%; width:130px; float:left; margin-top: 0.5rem; margin-right: 1.5rem; 
 	position:relative; border:solid 2px; border-color:#A78ECB;
 }
 
@@ -30,10 +30,51 @@ img.n1
 }
 body 
 {
-	max-width:600px; background-image:url('stripebackground.jpg');
+	background-image:url('stripebackground.jpg');
 	 background-size: 100% 100%;background-attachment: fixed;
 	  background-repeat: no-repeat; margin-left:50px; font-family:courier;
 
+}
+
+
+div.topindex
+{
+	max-width: 600px; float:center;
+}
+
+div.topleft
+{
+	float:left; max-width: 45%;
+}
+
+div.topright
+{
+	float:right;max-width: 45%;
+}
+
+div.about1
+{
+	max-width: 600px; text-align:left;
+}
+
+div.whyweb
+{
+	max-width: 600px;
+}
+
+div.writing
+{
+	max-width: 600px;
+}
+
+div.fundiv
+{
+	max-width: 600px
+}
+
+div.fundiv2
+{
+	max-width:600px; text-align: below;
 }
 
 h2.n1
@@ -43,18 +84,22 @@ h2.n1
 
 p.n1
 {
-	font-size:1.45rem; margin-top: 2rem
+	max-width:800px; font-size:1.45rem; margin-top: 2rem
 }
 
 p.n2
 {
-	font-size:1.1rem; float: left
+	font-size:1.1rem; float: left;
 }
+
+
 
 p.n3
 {
 	font-size:1.1rem; float: right;
 }
+
+
 
 p.n4
 {
@@ -67,19 +112,14 @@ thead
 	font-size: 1.5rem
 }
 
-table 
+table, tr 
 {
-float:left; border-bottom:50px
+border:double, dashed, black;
 }
 
 img.n2
 {
 	text-align:left; border-top:10px
-}
-
-div.n1
-{
-	float:left;
 }
 
 button
