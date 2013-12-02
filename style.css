@@ -5,23 +5,27 @@ h1
 
 nav
 {
-	text-align: center; background-color: #E5D2FF; padding: 0.05rem; border-radius: 25px
+	text-align: center; background-color: #E5D2FF; padding: 0.05rem; 
+	border-radius: 25px
 }
 
 nav li
 {
-	text-align:center; display:inline; font-size:20px; margin-left: 1rem; margin-right: 1rem;
+	text-align:center; display:inline; font-size:20px; margin-left: 1rem; 
+	margin-right: 1rem;
 }
 
 header
 {
- 	width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 2rem
+ 	width:100%; background-color:#E5D2FF; border-radius:10px; margin-bottom: 
+ 	2rem
 }
 
 img 
 {
-	max-width:30%; width:130px; float:left; margin-top: 0.5rem; margin-right: 1.5rem; 
-	position:relative; border:solid 2px; border-color:#A78ECB;
+	max-width:30%; width:130px; float:left; margin-top: 0.5rem; 
+	margin-right: 1.5rem; position:relative; border:solid 2px; 
+	border-color:#A78ECB;
 }
 
 img.n1
@@ -32,7 +36,8 @@ body
 {
 	background-image:url('stripebackground.jpg');
 	 background-size: 100% 100%;background-attachment: fixed;
-	  background-repeat: no-repeat; margin-left:50px; font-family:courier;
+	  background-repeat: no-repeat; margin-left:50px; font-family:courier; 
+    	margin-bottom: 10px;
 
 }
 
@@ -44,13 +49,25 @@ div.topindex
 
 div.topleft
 {
-	float:left; max-width: 45%;
+	float:left; max-width: 45%; margin:20px auto; border:3px dashed;
+	border-color:#EEEEEE; padding:10px; position: relative; padding-bottom: 50px
 }
 
 div.topright
 {
-	float:right;max-width: 45%;
+	float:right;max-width: 45%; margin:20px auto; border:3px dashed;
+	border-color:#EEEEEE; padding:10px; position: relative; padding-bottom: 50px
 }
+div.footer
+{
+    position:relative; float: bottom; clear:both; width:100%; 
+    background-color:#E5D2FF; border-radius:10px; margin-bottom: 3rem;
+}
+span.by
+{
+	float:right;
+}
+
 
 div.about1
 {
