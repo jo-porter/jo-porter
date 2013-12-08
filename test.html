@@ -1,0 +1,82 @@
+<head><title>Hello World</title>
+<script>
+function makeUppercase() {
+document.form1.outstring.value = document.form1.instring.value.toUpperCase();
+}
+</script>
+</head>
+<body>
+
+	<form name="form1" method="post">
+	<input name="instring" type="text" value="this is the text string" size="30">
+	<input type="button" name="Convert" value="Make Uppercase >>" onClick="makeUppercase();">
+	<input name="outstring" type="text" value="" size="30">
+	</form>
+
+	<script>
+		document.write('Hello World');
+	</script>
+	</p>
+	<script>
+		var message='You Suck!'
+		var x=message.length
+		document.write(x)
+	</script>
+	</p>
+
+	<script>
+		function monster(name,size,skincolor,age)
+		{
+		this.name=name;
+		this.size=size;
+		this.skincolor=skincolor;
+		this.age=age;
+		}
+		myMonster=new monster('Frank','Seven feet','Green',250);
+
+		document.write(myMonster.name + ' is ' + myMonster.size + ' tall ' + myMonster.age + ' years old and ' + myMonster.skincolor + '.');
+
+	</script>
+
+
+	<p id='where'>I wonder where the last instance of an 'a' is in this sentence?</p>
+	<p id='here'>I guess we'll find out here!</p>
+	<button onclick='myFunction()'>Click to discover</button>
+
+	<script>
+		function myFunction()
+		{
+			var str=document.getElementById('where').innerHTML;
+			var x=str.lastIndexOf('a');
+			document.getElementById('here').innerHTML=x+1;
+		}
+
+
+	</script>
+	</p>
+	<script>
+		var x='John';
+		document.write(x)
+	</script>
+
+	<script>
+		var x=new Date();
+		x.setFullYear(2100,0,14);
+		var today = new Date();
+
+		if (x>today)
+		  {
+		  alert("We're livin' in the 21st Century");
+		  }
+		else
+		  {
+		  alert("It's C22 and I'm lovin' it");
+		  }
+	</script>
+
+
+
+
+
+
+</body>
