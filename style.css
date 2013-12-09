@@ -1,4 +1,4 @@
-/**{
+*/*{
    border: 1px solid red !important;
 }*/
 body 
@@ -29,6 +29,12 @@ h2
 	line-height: 60px;
 	margin-top:30px;
 }
+h3
+{
+	font-size:27px;
+	margin-top:7.5px;
+	margin-bottom:7.5px;
+}
 footer
 {
 	margin-top: 60px;
@@ -37,8 +43,8 @@ img.jo-face
 {
 	max-height:240px; 
 	float:right; 
-	margin-top: 30px; 
-	padding: 7.5px
+	/*margin-top: 30px; */
+/*	padding: 7.5px*/
 }
 img.mail
 {
@@ -48,8 +54,14 @@ img.twit
 {
 	max-height: 45px;
 }
-
-
+p 
+{
+	margin-top:15px;
+}
+img.bones
+{
+	max-width: 300px;
+}
 
 
 
