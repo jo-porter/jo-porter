@@ -2,6 +2,16 @@
    border: 1px solid red !important; 
 }*/
 
+body
+{
+	/* Baseline grid — vertical rhythm */
+	/*
+	background-image: -webkit-linear-gradient(#ff0000 1px, transparent 1px), -webkit-linear-gradient(#ffff00 1px, transparent 1px);
+	background-size: 100% 30px, 100% 15px;
+	background-repeat: repeat;
+	*/
+}
+
 em
 {
 	font-style: italic;
