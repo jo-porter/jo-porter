@@ -1,0 +1,44 @@
+/**{
+   border: 1px solid red !important; 
+}*/
+h1{
+	font-size:150px;
+}
+h2
+{
+	font-size:50px;
+}
+p
+{
+	font-size:20px;
+}
+h2#header
+{
+	color:#00BFFF;
+	font-weight: 500;
+}
+body {
+	background-image: url('map.jpg');
+	background-attachment: fixed;
+	font-family:Tahoma;
+}
+header
+{
+margin-bottom: 50px;
+text-align: center;
+color:#1C1C1C;
+}
+
+div.main
+{
+	width:100%;
+	background-color: #FEFBFB;
+	position:relative;
+	padding-bottom:600px;
+	padding-top: 15px;
+	
+}
+div#intro
+{
+	max-width: 600px
+}

@@ -75,7 +75,7 @@ div.who-am-i { position:relative }
  
 @media (min-width: 480px) {
     img.jo-face { 
-    src: 'jo-square.jpg';
+    src: 'jo.jpg';
     opacity: 1; 
     float:right; 
     margin:0 0 5px 5px }
@@ -87,16 +87,14 @@ div.who-am-i { position:relative }
  
 @media (max-width: 479px) {
     
-    div.who-am-i { padding-top:270px; }
-    img.jo-face { src: 'jo-square.jpg';
+    div.who-am-i { padding-bottom:270px; }
+    img.jo-face { src: 'jo.jpg';
     position:absolute; 
-    left:0; top:0;
-}
+    left:0; bottom:0;}
     
     nav li {display: inline;
 	margin:auto;
 	font-size: 18px;
-	border-bottom:30px;
 	}
 }
 h3
