@@ -22,7 +22,11 @@ body
 
 }
 
-@media (min-width: 480px) {
+header h1
+{
+	text-align: left
+}
+
 h1
 {
 	max-width: 100%;
@@ -32,23 +36,8 @@ h1
 	line-height: 75px;
 	margin-bottom: 15px;
 
-}}
-@media (max-width: 479px){
-h1
-{
-	max-width: 100%;
-	font-family: Georgia;
-	font-weight: 900;
-	font-size:60px;
-	line-height: 75px;
-	margin-bottom: 15px;
-
-}}
-
-header h1
-{
-	text-align: left
 }
+
 nav
 {
 	margin-top:30px;
@@ -72,7 +61,6 @@ h2
 }
 
 div.who-am-i { position:relative }
- 
 
 h3
 {
@@ -114,6 +102,29 @@ table, tr, td, th
 	border: solid 2px; 
 }
 
+/*@media (min-width: 480px) {
+h1
+{
+	max-width: 100%;
+	font-family: Georgia;
+	font-weight: 900;
+	font-size: 90px;
+	line-height: 75px;
+	margin-bottom: 15px;
+
+}}
+@media (max-width: 479px){
+h1
+{
+	max-width: 100%;
+	font-family: Georgia;
+	font-weight: 900;
+	font-size:60px;
+	line-height: 75px;
+	margin-bottom: 15px;
+
+}}
+*/
 
 /*@media (min-width: 480px) {
     img.jo-face { 
