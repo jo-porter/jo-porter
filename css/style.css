@@ -49,13 +49,16 @@ header h1
 {
 	text-align: left
 }
-/*nav li
+
+nav li
 {
 	display: inline;
 	margin-right:3%;
 	font-size: 22px;
-	margin-left:3%; 
-}*/
+	margin-left:3%;
+}
+
+
 h2
 {
 	font-size: 33px;
@@ -65,42 +68,6 @@ h2
 
 div.who-am-i { position:relative }
  
-@media (min-width: 480px) {
-    img.jo-face { 
-    src: 'jo-square.jpg';
-    opacity: 1; 
-    float:right; 
-    margin:0 0 5px 5px }
-    nav li {display: inline;
-	margin-right:3%;
-	font-size: 22px;
-	margin-left:3%; }
-}   
- 
-/* Breakpoint: the measure becomes uncomfortable to read so
-   moving the photo to the top and full width */
-@media (max-width: 479px) 
-{    
-    div.who-am-i 
-    {
-    	padding-top:270px;
-    }
-
-    img.jo-face 
-    {
-    	src: 'jo-square.jpg';
-	    position:absolute; 
-	    left:0; top:0;
-	}
-    
-	nav li 
-	{
-		display: inline;
-		margin:auto;
-		font-size: 18px;
-		border-bottom:30px;
-	}
-}
 
 h3
 {
@@ -109,11 +76,6 @@ h3
 	margin-bottom:7.5px;
 }
 footer { margin-top: 60px; }
-
-@media (max-width: 479px) {
-
-	footer {font-size: 0.5 em;}
-}
 
 span.by 
 {
@@ -148,6 +110,48 @@ table, tr, td, th
 }
 
 
+/*@media (min-width: 480px) {
+    img.jo-face { 
+    src: 'jo-square.jpg';
+    opacity: 1; 
+    float:right; 
+    margin:0 0 5px 5px }
+    nav li {
+    	display: inline;
+	margin-right:3%;
+	font-size: 22px;
+	margin-left:3%; }
+}   */
+ 
+/* Breakpoint: the measure becomes uncomfortable to read so
+   moving the photo to the top and full width */
+/*@media (max-width: 479px) 
+{    
+    div.who-am-i 
+    {
+    	padding-top:270px;
+    }
+
+    img.jo-face 
+    {
+    	src: 'jo-square.jpg';
+	    position:absolute; 
+	    left:0; top:0;
+	}
+    
+	nav li 
+	{
+		display: inline;
+		margin:auto;
+		font-size: 18px;
+		border-bottom:30px;
+	}
+}
+*/
 
 
+/*@media (max-width: 479px) {
 
+	footer {font-size: 0.5 em;}
+}
+*/
