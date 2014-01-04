@@ -77,20 +77,31 @@ div.who-am-i { position:relative }
 	margin-left:3%; }
 }   
  
-@media (max-width: 479px) {
+/* Breakpoint: the measure becomes uncomfortable to read so
+   moving the photo to the top and full width */
+@media (max-width: 479px) 
+{    
+    div.who-am-i 
+    {
+    	padding-top:270px;
+    }
+
+    img.jo-face 
+    {
+    	src: 'jo-square.jpg';
+	    position:absolute; 
+	    left:0; top:0;
+	}
     
-    div.who-am-i { padding-top:270px; }
-    img.jo-face { src: 'jo-square.jpg';
-    position:absolute; 
-    left:0; top:0;
-}
-    
-    nav li {display: inline;
-	margin:auto;
-	font-size: 18px;
-	border-bottom:30px;
+	nav li 
+	{
+		display: inline;
+		margin:auto;
+		font-size: 18px;
+		border-bottom:30px;
 	}
 }
+
 h3
 {
 	font-size:27px;
