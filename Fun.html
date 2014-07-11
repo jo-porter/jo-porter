@@ -1,24 +1,23 @@
 <head>
 	<title>Fun</title>
-<link rel='stylesheet' type='text/css' href='css/reset.css'>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-<meta name='viewport' content='width=device-width'>
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='Muli-Light.ttf' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/leo-arrow" rel="stylesheet" type="text/css"/>
+	<meta name='viewport' content='width=device-width'>
 		
 </head>
 
 <body>
 
 	<header>
-		<h1>Jo's Journey to Web Developing</h1> 
-
+		<h1 class='title'>Just Jo</h1>
 		<nav>
 			<ul>
 				<li><a href='index.html'>Home</a></li>
 				<li><a href='about.html'>About</a></li>
 				<li><a href='writing.html'>Writing</a></li>
-				<li><a href='fun.html'>Fun</a></li>
+				<li>Fun</li>
 				<li><a href='contact.html'>Contact</a></li>
 			</ul>
 		</nav>
@@ -27,103 +26,115 @@
 	<div class='main'>
 
 
-	<div id='cheeky-monkey'>
+		<div id='cheeky-monkey'>
 
-	<h2>Fun, fun, fun! Adventures in code!</h2>
-	<script>
-		document.write("Hey there, you. Yeah you, you looking at my page on " + Date() + " how's it going, you cheeky, web surfing monkey?" );
-	
-	</script>
+			<h2>Fun, fun, fun! Adventures in code!</h2>
+			<script>
+				document.write("Hey there, you. Yeah you, you looking at my page on " + Date() + " how's it going, you cheeky, web surfing monkey?" );
+			
+			</script>
 
-	<p>Ok, so you've found my playground. Here I sit with my metaphorical bucket and spade, playing with code and seeing what I can create. This is all for my benefit but hey, if you want to watch me mess around with tables, forms and whatever else I might find...then you might have too much time on your hands. Seriously.</p>
-</div>
+			<p>Ok, so you've found my playground. Here I sit with my metaphorical bucket and spade, playing with code and seeing what I can create. This is all for my benefit but hey, if you want to watch me mess around with tables, forms and whatever else I might find...then you might have too much time on your hands. Seriously.</p>
 
-<div id='table'>
+		</div>
 
-<button onclick="myFunction()">Who rocks?</button>
+	<div class='buttons'>
 
-<p id='best'></p>
+		<h2>Buttons:</h2>
 
-	<script>
-		function myFunction()
-		{
-		document.getElementById('best').innerHTML=("Jo rocks!");
+		<button onclick="myFunction()">Who rocks?</button>
+
+		<p id='best'></p>
+
+		<script>
+			function myFunction()
+			{
+			document.getElementById('best').innerHTML=("Jo rocks!");
+			}
+		</script>
+
+		<div id='cake'>
+			<h3>Cake or Death?</h3>
+
+			<p id='homage'>In loving homage to Eddie Izzard, I ask: Cake or Death?
+				<form>
+					<input type='radio' name='choice' value='cake'>Cake<br>
+					<input type='radio' name='choice' value='death'>Death<br>
+					<input type='submit' value='Send It, Baby'>
+				</form>	
+			</p>
+			<button type="button" onclick="alert('Awwww yeeeeah')">Click it!</button>
+		</div>
+
+		<p id='changetext'>Here's some boring text.</p>
+
+		<button onclick='myFunction2()'>What to do?</button>
+
+		<script>
+			function myFunction2()
+			{
+				document.getElementById('changetext').innerHTML="EXPLOSIONS AND CAR CHASES N' SHIT! NOT SO BORING ANYMORE, EH?"
 		}
-	</script>
+		</script>
 
-	<table border='2px'>
-		<thead><strong>Pros and Cons of tables</strong></thead><br>
+	</div>
 
-		<tbody>
-			<tr>
-				<th>Pros of Tables</th>
-				<th>Cons of Tables</th>
-			</tr>
+	<div id='table'>
 
-			<tr>
-				<td>Uniforn</td>
-				<td>Encourage list making</td>
-			</tr>
+		<h2>Tables:</h2>
 
-			<tr>
-				<td>Clear</td>
-				<td>Sharp Edges</td>
-			</tr>
+		<table border='2px'>
+			<thead><strong>Pros and Cons of tables</strong></thead><br>
 
-			<tr>
-				<td>Organised</td>
-				<td>Boxy</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+			<tbody>
+				<tr>
+					<th>Pros of Tables</th>
+					<th>Cons of Tables</th>
+				</tr>
 
-<div id='cake'>
-	<h3>Cake or Death?</h3>
+				<tr>
+					<td>Uniforn</td>
+					<td>Encourage list making</td>
+				</tr>
 
-	<p>In loving homage to Eddie Izzard, I ask: Cake or Death?
-		<form>
-			<input type='radio' name='choice' value='cake'>Cake<br>
-			<input type='radio' name='choice' value='death'>Death<br>
-			<input type='submit' value='Send It, Baby'>
-		</form>	
-	</p>
-	<button type="button" onclick="alert('Awwww yeeeeah')">Click it!</button>
-</div>
+				<tr>
+					<td>Clear</td>
+					<td>Sharp Edges</td>
+				</tr>
+
+				<tr>
+					<td>Organised</td>
+					<td>Boxy</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
 
 <div id='peggy'>
 
-<p id='changetext'>Here's some boring text.</p>
+	<h2>Variable Objects:</h2>
 
-<button onclick='myFunction2()'>What to do?</button>
+	<p>Here is a variable object. On this occasion it is a cat. My cat (sort of...she definitely thinks I'm hers). It could be a different animal, but right now it is her:</p>
 
-<script>
-	function myFunction2()
-	{
-		document.getElementById('changetext').innerHTML="EXPLOSIONS AND CAR CHASES N' SHIT! NOT SO BORING ANYMORE, EH?"
-}
-</script>
+	<script>
+	var animal=new Object();
+	animal.name="Peggy";
+	animal.color="black";
+	animal.species="cat";
+	animal.legnumber=3
+	document.write(animal.name  +  " is a " + animal.color + " " + animal.species + " with " + animal.legnumber + " legs.");
+	</script>
 
-<p>Here is a variable object. On this occasion it is a cat. My cat (sort of...she definitely thinks I'm hers). It could be a different animal, but right now it is her:</p>
-
-<script>
-var animal=new Object();
-animal.name="Peggy";
-animal.color="black";
-animal.species="cat";
-animal.legnumber=3
-document.write(animal.name  +  " is a " + animal.color + " " + animal.species + " with " + animal.legnumber + " legs.");
-</script>
-
-</div>
+	</div>
 
 </div>
 
 <footer>
 
-			<a href='fun.html'>Back to the Top</a><br>
-			<a href='mailto:jcep@hotmail.co.uk'>Get in Touch</a>
-	        <span class='by'>Site built by Joanna Porter.</span>
+	<a href='index.html'><small>Back to the Top</small></a><br>
+	<a href='mailto:jcep@hotmail.co.uk'><small>Get in Touch</small></a>
+    <span class='by'><small>Site built by Joanna Porter.</small></span>
 </footer>
 	
 
