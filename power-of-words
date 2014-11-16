@@ -1,0 +1,14 @@
+<head>
+	<title>Handheld Conf</title>
+	<link rel='stylesheet' type='text/css' href='css/reset.css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<meta name='viewport' content='width=device-width'>
+</head>
+
+<header>
+	<h1 class='title'>Jo's <br>Web <br>Journey</h1>
+	
+<a href='index.html'>Home</a>
+<a href='writing.html'>Go Back</a>
+</header>

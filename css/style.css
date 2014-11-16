@@ -34,9 +34,9 @@
 @media (min-width: 610px) {
 	.jo-face
 	{
-	float:right;
-	margin-left: 30px;
-	}
+	float:left;
+/*	margin-left: 30px;
+*/	}
 }
 
 @media (min-width: 490px) {
@@ -79,9 +79,10 @@ body
 	font-weight: 500;
 	line-height: 30px;
 	margin-top: 30px;
-	max-width:600px;
+	max-width:900px;
 	padding-left: 30px;
 	padding-right: 30px;
+
 }
 
 button
@@ -230,8 +231,10 @@ input[type=radio], input[type=checkbox]
 
 .jo-face
 {
+	float: left;
 	max-height:270px;  
 	margin-bottom:30px;
+	margin-right: 1000px;
 /*	margin-top: 30px; 
 	padding: 7.5px*/
 }
@@ -393,6 +396,18 @@ strong
 	overflow: hidden;
 	height:43px;
 	background-position: 90px -98px;
+}
+
+sup 
+{
+	vertical-align: super;
+	font-size: 10px; 
+}
+
+sub 
+{
+	vertical-align: sub; 
+	font-size: 10px;
 }
 
 table, tr, td, th

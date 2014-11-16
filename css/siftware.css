@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/** {
+   border: 1px solid red !important;
+}*/
+
+#page-wrap
+{
+	 width: 320px;
+     margin: 0 auto;
+}
+
+body 
+{
+	max-width:320px;
+	padding-right: 12px;
+	padding-left: 7px;
+	height:1000px;
+	font-family:Helvetica;
+	font-size: 12px;
+	line-height: 40px;
+	font-weight:700;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+header
+{
+	background-color: #326D94;
+	max-width:320px;
+	
+}
+
+.front-page
+{
+	max-width:320px;
+	background-color: #308FCF;
+	height:1000px;
+}
+
+li a
+{
+	color:#fff;
+	text-decoration: none;
+}
+
+.current
+{
+	color:#fff;
+	background-color: #308FCF;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #194B6D;
+	line-height: 15px;
+	display:inline-block;
+	width:auto;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+}
+
+nav
+{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1
+{
+	color:#fff;
+	font-size:30px;
+	text-align: center;
+	margin-top: 30px;
+	clear:both;
+}
+
+.logo
+{
+	position: relative;
+	top: 0.3em;
+}
+
+.menu
+{
+	float:right;
+	color:#fff;
+	background-color: #326D94;
+	margin-right: 19px;
+	padding-right: 20px;
+	padding-left: 20px;
+	-webkit-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	text-decoration: none;
+	padding-top: -5px;
+}
+ .meter
+ {
+ 	background: url(.../images/siftware-sprite.png);
+ 	display: block;
+ 	float:center;
+ 	height:0;
+ 	overflow: hidden;
+ 	width:95px;
+ 	padding-top: 50px;
+ }
+
+
+
+
+
+
