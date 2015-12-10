@@ -241,6 +241,14 @@ img.twit
 	max-height: 45px;
 }
 
+img.bridge
+{
+	max-width: 800px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+
 input[type=search]
 {
 	-webkit-appearance:none;
