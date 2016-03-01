@@ -15,7 +15,7 @@ body
 	max-width:320px;
 	padding-right: 12px;
 	padding-left: 7px;
-	height:1000px;
+	height:800px;
 	font-family:Helvetica;
 	font-size: 12px;
 	line-height: 40px;
@@ -35,7 +35,7 @@ header
 {
 	max-width:320px;
 	background-color: #308FCF;
-	height:1000px;
+	height:800px;
 }
 
 li a
@@ -103,6 +103,6 @@ h1
  	height:0;
  	overflow: hidden;
  	width:95px;
- 	padding-top: 50px;
+ 	padding-top: 55px;
  }
 
