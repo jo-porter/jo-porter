@@ -10,169 +10,158 @@
 </head>
 
 <header>
-	<h1 class='title'>jo-porter.com</h1>
+	<h1 class='title'>Jules</h1>
 	
-<a href='index.html'>Home</a>
-<a href='blog.html'>Blog</a>
+		<nav>
+			<ul>
+				<li><a href='index.html'>Home</a></li>
+				<li><a href='https://github.com/jo-porter'>Projects</a></li>
+				<li><a href='blog.html'>Blog</a></li>
+				<li><a href='contact.html'>Contact</a></li>
+			</ul>
+		</nav>
 </header>
 
 <body>
 	<p>Below, is Laura's homework (or, more accurately, mine) for this week. Laura gave me an extensive list of things to be included in my form, some of which we've already visited, some of which are going to take a little bit of research!</p>
 
-	<form id='contact' action=''>
-		<fieldset><legend>Personal</legend>
-			<ul>
-				<li>
-					<label for='name'>Name:</label>
-					<input type='text' id='name'>
-				</li>
+		<form id='contact' action=''>
+			<fieldset><legend>Personal</legend>
+				<ul>
+					<li>
+						<label for='name'>Name:</label>
+						<input type='text' id='name'>
+					</li>
 
-				<li class='alert'>
-					<p>Email address must contain '@' symbol. e.g. getitright@notwrong.com</p>
+					<li class='alert'>
+						<p>Email address must contain '@' symbol. e.g. getitright@notwrong.com</p>
 
-					<label for='email' required>Email address:</label>
-					<input type='email' id='email' placeholder='e.g. getitright@notwrong.com'>
-				</li>
+						<label for='email' required>Email address:</label>
+						<input type='email' id='email' placeholder='e.g. getitright@notwrong.com'>
+					</li>
 
-				<li>
-					<label for='age'>Age:</label>
-					<select id='age' name='age'>
-						<option value='under18'>18 and Under</option>
-						<option value='19to39'>19 -> 29</option>
-						<option value='30to49'>30 -> 49</option>
-						<option value='50plus'>50 and Over</option>
-						<option value='not-say'>Prefer not to say</option>
-					</select>
-				</li>
-			</ul>
-			<h2>Do you identify as?</h2>
-			<ul class='radioform'>
-				<li>	
-					<input type='radio' name='gender' id='male'>
-					<label for='male' class='gender'>Male</label>
-				</li>
+					<li>
+						<label for='age'>Age:</label>
+						<select id='age' name='age'>
+							<option value='under18'>18 and Under</option>
+							<option value='19to39'>19 -> 29</option>
+							<option value='30to49'>30 -> 49</option>
+							<option value='50plus'>50 and Over</option>
+							<option value='not-say'>Prefer not to say</option>
+						</select>
+					</li>
+				</ul>
+				<h2>Do you identify as?</h2>
+				<ul class='radioform'>
+					<li>	
+						<input type='radio' name='gender' id='male'>
+						<label for='male' class='gender'>Male</label>
+					</li>
 
-				<li>
-					<input type='radio' name='gener' id='female'> 
-					<label for='female' class='gender'>Female</label>
-				</li>
+					<li>
+						<input type='radio' name='gener' id='female'> 
+						<label for='female' class='gender'>Female</label>
+					</li>
 
-				<li>
-					<input type='radio' name='gender' id='other'>
-					<label for='other' class='gender'>Other</label>
-				</li>
+					<li>
+						<input type='radio' name='gender' id='other'>
+						<label for='other' class='gender'>Other</label>
+					</li>
 
-				<li>
-					<input type='radio' name='gender' id='not-say'>
-					<label for='other' class='gender'>Pefer not to say</label
-				</li>	
-			</ul>
+					<li>
+						<input type='radio' name='gender' id='not-say'>
+						<label for='other' class='gender'>Pefer not to say</label
+					</li>	
+				</ul>
 
-			<h2>Which part of the UK are you from?</h2>
-			<ul class='radioform'>
-				<li>
-					<input type='radio' name='location' id='northeast'>
-					<label for='northeast' class='location'>North East</label>
-				</li>
+				<h2>Which part of the UK are you from?</h2>
+				<ul class='radioform'>
+					<li>
+						<input type='radio' name='location' id='northeast'>
+						<label for='northeast' class='location'>North East</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='northwest'>
-					<label for='northwest' class='location'>North West</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='northwest'>
+						<label for='northwest' class='location'>North West</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='midlands'>
-					<label for='midlands' class='location'>Midlands</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='midlands'>
+						<label for='midlands' class='location'>Midlands</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='southeast'>
-					<label for='southeast' class='location'>South East</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='southeast'>
+						<label for='southeast' class='location'>South East</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='southwest'>
-					<label for='southwest' class='location'>South West</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='southwest'>
+						<label for='southwest' class='location'>South West</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='northernireland'>
-					<label for='northernireland' class='location'>Northern Ireland</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='northernireland'>
+						<label for='northernireland' class='location'>Northern Ireland</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='scotland'>
-					<label for='scotland' class='location'>Scotland</label>
-				</li>
+					<li>
+						<input type='radio' name='location' id='scotland'>
+						<label for='scotland' class='location'>Scotland</label>
+					</li>
 
-				<li>
-					<input type='radio' name='location' id='wales'>
-					<label for='wales' class='location'>Wales</label>
-				</li>
-			</ul>
+					<li>
+						<input type='radio' name='location' id='wales'>
+						<label for='wales' class='location'>Wales</label>
+					</li>
+				</ul>
 
-			<h2>What's your favourite colour?</h2>
-			<ul class='radioform'>
-				<li>
-					<input type='radio' name='colour' id='red'>
-					<label for='red' class='colour'>Red</label>
-				</li>
+				<h2>What's your favourite colour?</h2>
+				<ul class='radioform'>
+					<li>
+						<input type='radio' name='colour' id='red'>
+						<label for='red' class='colour'>Red</label>
+					</li>
 
-				<li>
-					<input type='radio' name='colour' id='yellow'>
-					<label for='yellow' class='colour'>Yellow</label>
-				</li>
+					<li>
+						<input type='radio' name='colour' id='yellow'>
+						<label for='yellow' class='colour'>Yellow</label>
+					</li>
 
-				<li>
-					<input type='radio' name='colour' id='blue'>
-					<label for='blue' class='colour'>Blue</label>
-				</li>
+					<li>
+						<input type='radio' name='colour' id='blue'>
+						<label for='blue' class='colour'>Blue</label>
+					</li>
 
-				<li>
-					<input type='radio' name='colour' id='other'>
-					<label for='other' class='colour'>Other. Please specify:</label>
-					<input type='text' name='colour' id='specify'>
-				</li>
-			</ul>
+					<li>
+						<input type='radio' name='colour' id='other'>
+						<label for='other' class='colour'>Other. Please specify:</label>
+						<input type='text' name='colour' id='specify'>
+					</li>
+				</ul>
 
-			<label for='textarea' name='comments'>Leave comments below (optional):</label>
-			<textarea id='textarea' class='comments'></textarea>
+				<label for='textarea' name='comments'>Leave comments below (optional):</label>
+				<textarea id='textarea' class='comments'></textarea>
 
-			<label for='password'>Choose password:</label>
-			<input type='password' name='password'>
+				<label for='password'>Choose password:</label>
+				<input type='password' name='password'>
 
-			<label for='confirmpassword'>Confirm password:</label>
-			<input type='password' name='password'>
+				<label for='confirmpassword'>Confirm password:</label>
+				<input type='password' name='password'>
 
-			<button type='submit' class='submit'>Submit</button>
-			<button type='reset' class='reset'>Reset</button>
-
-
-		</fieldset>
+				<button type='submit' class='submit'>Submit</button>
+				<button type='reset' class='reset'>Reset</button>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			</fieldset>
 
 	<footer>
 
 			<a href='forms.html'><small>Back to the Top</small></a><br>
-			<a href='https://twitter.com/ExactlyJo'><small>Twitter</small></a>
-			<a href='mailto:jo@jo-porter.com'><small>Email</small></a>
-	        <span class='by'><small>Site built by Joanna Porter.</small></span>
+			<a href='https://twitter.com/ExactlyJ'><small>Twitter</small></a>
+			<a href='mailto:jules@jo-porter.com'><small>Email</small></a>
+	        <span class='by'><small>Site built by Jules Porter.</small></span>
 	</footer>
 
 </body>

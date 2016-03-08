@@ -24,6 +24,14 @@
 
 }
 
+
+@media (max-width: 490px) {
+	img
+	{
+		width: 300px;
+	}
+}
+
 @media (min-width: 490px) {
 
 	h1
@@ -47,6 +55,8 @@
 /*	margin-left: 30px;
 */	}
 }
+
+	
 
 @media (min-width: 490px) {
 
@@ -89,7 +99,7 @@ body
 	font-weight: 500;
 	line-height: 30px;
 	margin-top: 30px;
-	max-width:900px;
+	max-width:700px;
 	padding-left: 30px;
 	padding-right: 30px;
 
@@ -227,7 +237,7 @@ img
 
 img.bones
 {
-	max-width: 300px;
+	max-width: 600px;
 }
 
 img.mail
@@ -243,11 +253,15 @@ img.twit
 
 img.bridge
 {
-	max-width: 800px;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	max-width: 600px;
+/*	margin-bottom: 30px;
+	margin-top: 30px;*/
 }
 
+img.elephant
+{
+	max-width: 600px;
+}
 
 input[type=search]
 {
